@@ -16,3 +16,6 @@ In my configuration most of my media software is running as Docker containers di
 ```
 4.  Modify the above command line based on the folders you need monitoring.
 5. Finally reboot the NAS and when it starts the process to do the renaming should be running in the background (you can verify this by connecting via SSH to the NAS and doing a 'ps -ef | grep jelly' command.)
+
+## To Do
+1. At the moment all logging is done to the console which isn't much use when running as a task under Synology.  I need to revisit this and look at writing the information to a log file instead.
